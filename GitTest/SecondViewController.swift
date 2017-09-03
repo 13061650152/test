@@ -19,5 +19,6 @@ class SecondViewController: ViewController {
         label.backgroundColor = UIColor.gray;
         self.view.addSubview(label);
         
+        
     }
 }
