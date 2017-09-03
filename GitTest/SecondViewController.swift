@@ -15,7 +15,9 @@ class SecondViewController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
         
-        
+        label.frame = CGRect(x: 100, y: 100, width: 100, height: 100);
+        label.backgroundColor = UIColor.gray;
+        self.view.addSubview(label);
         
     }
 }
