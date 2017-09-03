@@ -22,6 +22,9 @@ class ViewController: UIViewController {
         tf.layer.borderWidth = 1;
         self.view.addSubview(tf);
         
+        let hahahayouxinjianleyige = UILabel.init(frame: CGRect(x: 200, y: 200, width: 100, height: 100));
+        hahahayouxinjianleyige.backgroundColor = UIColor.orange;
+        self.view.addSubview(hahahayouxinjianleyige);
         
     }
 
