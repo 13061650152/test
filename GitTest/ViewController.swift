@@ -16,6 +16,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        tf.backgroundColor = UIColor.orange;
+        tf.layer.borderColor = UIColor.red.cgColor;
+        tf.layer.borderWidth = 1;
+        self.view.addSubview(tf);
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
