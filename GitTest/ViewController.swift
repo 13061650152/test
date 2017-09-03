@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var tableView = UITableView();
+
     var tf = UITextField();
     
     override func viewDidLoad() {
