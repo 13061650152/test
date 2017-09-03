@@ -14,6 +14,7 @@
 		121CC8001F5C42900005EA02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121CC7FE1F5C42900005EA02 /* LaunchScreen.storyboard */; };
 		121CC80B1F5C42900005EA02 /* GitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CC80A1F5C42900005EA02 /* GitTestTests.swift */; };
 		121CC8161F5C42910005EA02 /* GitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CC8151F5C42910005EA02 /* GitTestUITests.swift */; };
+		121CC8241F5C42AA0005EA02 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CC8231F5C42AA0005EA02 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		121CC8111F5C42910005EA02 /* GitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		121CC8151F5C42910005EA02 /* GitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTestUITests.swift; sourceTree = "<group>"; };
 		121CC8171F5C42910005EA02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121CC8231F5C42AA0005EA02 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				121CC7F51F5C42900005EA02 /* AppDelegate.swift */,
 				121CC7F71F5C42900005EA02 /* ViewController.swift */,
+				121CC8231F5C42AA0005EA02 /* SecondViewController.swift */,
 				121CC7F91F5C42900005EA02 /* Main.storyboard */,
 				121CC7FC1F5C42900005EA02 /* Assets.xcassets */,
 				121CC7FE1F5C42900005EA02 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121CC8241F5C42AA0005EA02 /* SecondViewController.swift in Sources */,
 				121CC7F81F5C42900005EA02 /* ViewController.swift in Sources */,
 				121CC7F61F5C42900005EA02 /* AppDelegate.swift in Sources */,
 			);
